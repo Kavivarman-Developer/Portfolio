@@ -149,10 +149,10 @@ nav {
 @media screen and (max-width:768px) {
     .nav-links {
         position: fixed;
-        top: 17vh;
+        top: 15vh;
         right: 0px;
         flex-direction: column;
-        height: 80vh;
+        height: 70vh;
         background-color: #fff;
         transform: translateX(100%);
         transition: 0.6s;
