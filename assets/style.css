@@ -330,13 +330,10 @@ nav {
 
 /* Cards Designs */
 
-.card1 {
+.card1,.card2,.card3,.card4 {
     background-color: #fff;
     flex: 25%;
-    padding: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 50vh;
     text-align: center;
     position: relative;
     box-shadow: 0px 0px 20px rgb(190, 190, 190);
@@ -368,19 +365,6 @@ nav {
     bottom: -5px;
 }
 
-.card2 {
-    background-color: #fff;
-    flex: 25%;
-    padding: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    box-shadow: 0px 0px 20px rgb(190, 190, 190);
-
-}
-
 .card2::before {
     content: "";
     width: 30px;
@@ -407,18 +391,6 @@ nav {
     bottom: -5px;
 }
 
-.card3 {
-    background-color: #fff;
-    flex: 25%;
-    padding: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    box-shadow: 0px 0px 20px rgb(190, 190, 190);
-}
-
 .card3::before {
     content: "";
     width: 30px;
@@ -443,18 +415,6 @@ nav {
     border-left: 5px solid transparent;
     right: -5px;
     bottom: -5px;
-}
-
-.card4 {
-    background-color: #fff;
-    flex: 25%;
-    padding: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    box-shadow: 0px 0px 20px rgb(190, 190, 190);
 }
 
 .card4::before {
