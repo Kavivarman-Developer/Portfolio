@@ -125,3 +125,29 @@ function setSuccess(element) {
     inputGroup.classList.add('success');
     inputGroup.classList.remove('error');
 }
+
+// Context menu disable
+
+window.addEventListener('contextmenu' , (e) => {
+    e.preventDefault();
+});
+
+
+// Scroll Button Invisible 
+
+const scroolling = document.getElementById('back_to_top');
+
+window.onscroll = () => {
+
+    if(window.scrollY > 400){
+
+        back_to_top.style.display = "flex";
+        
+    }
+    else{
+
+        back_to_top.style.display = "none";
+
+    }
+
+}
